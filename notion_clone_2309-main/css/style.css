@@ -1,0 +1,19 @@
+@import 'reset.css';
+@import 'editor.css';
+@import 'sidebar.css';
+
+:root {
+    --background: white;
+    --sideBar: #f7f6f3;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+}
